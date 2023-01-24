@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header nav {
+  background-color: #3D0C63;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  font-family: chivo; }
+  header nav .dropdown-item:hover {
+    background-color: #3D3D3D; }
+  header nav .dropdown-item.active, header nav .dropdown-item:active {
+    background-color: #8847BB;
+    /* cambia el color de fondo al hacer clic */ }
+
+.homepage header {
+  background-image: url("/Users/matiasbiase/Desktop/mati.biase.WS/Assets/Background/Backgroundgradientv1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .homepage header main {
+    margin-left: 150px; }
+    .homepage header main h1 {
+      margin-top: 110px; }
+    .homepage header main h2 {
+      margin-top: 60px; }
+    .homepage header main p {
+      margin-top: 36px;
+      margin-bottom: 36px;
+      font-size: 14px; }
+    .homepage header main img {
+      margin-top: 110px; }
+
+.homepage section {
+  margin-bottom: 200px;
+  margin-top: 110px; }
+  .homepage section div div h2 {
+    margin-left: 150px;
+    margin-bottom: 200px;
+    font-family: chivo; }
+  .homepage section div div div div div div {
+    height: 500px; }
+  .homepage section div div button {
+    font-size: 50px; }
+
+.homepage Section div h2 {
+  margin-bottom: 75px;
+  font-family: chivo; }
+
+.homepage Section div {
+  height: fit-content;
+  margin-bottom: 36px; }
+  .homepage Section div div {
+    margin-bottom: 12px; }
+    .homepage Section div div div div h5 {
+      font-family: chivo; }
+    .homepage Section div div div div p {
+      font-family: Arial, Helvetica, sans-serif; }
+  .homepage Section div div div div h5 {
+    font-family: chivo; }
+  .homepage Section div div div div p {
+    font-family: Arial, Helvetica, sans-serif; }
+
+.homepage section {
+  margin-left: 0px; }
+  .homepage section main img {
+    width: 100%; }
+  .homepage section main div {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #C4C4C4; }
+    .homepage section main div div div {
+      margin-left: 150px; }
+      .homepage section main div div div h1 {
+        margin-top: 110px;
+        font-family: chivo; }
+      .homepage section main div div div h2 {
+        margin-top: 60px;
+        margin-bottom: 36px; }
+      .homepage section main div div div p {
+        margin-bottom: 200px; }
+
+.wikipediapage div main {
+  background-color: #EBEBEB; }
+  .wikipediapage div main div div {
+    background-color: transparent; }
+  .wikipediapage div main div div div {
+    padding: 20px; }
+    .wikipediapage div main div div div div p {
+      color: #C4C4C4; }
+  .wikipediapage div main div div div div img {
+    height: auto;
+    width: 100%; }
+
+.wikipediapage .margin-wikipedia {
+  margin-left: 150px; }
+
+.wikipediapage .between-section {
+  background-color: #C4C4C4; }
+
+.wikipediapage .card-title {
+  margin-top: 110px;
+  font-family: chivo;
+  padding: 5px;
+  background-color: #C4C4C4;
+  border-radius: 30px; }
+
+.wikipediapage .h3-1 {
+  font-family: chivo;
+  color: #C4C4C4; }
+
+.wikipediapage .h-top-wiki {
+  font-family: chivo;
+  margin-top: 150px; }
+
+.wikipediapage .h-bottom-wiki {
+  margin-bottom: 150px; }
+
+.wikipediapage .card-info {
+  background-color: #3D3D3D;
+  border-radius: 30px; }
+
+.wikipediapage .reset-section {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
+.wikipediapage .reset-img {
+  padding: 0px; }
+
+.wikipediapage .margin-buttom {
+  margin-bottom: 200px; }
+
+.metasc-page div main {
+  background-color: #EBEBEB; }
+  .metasc-page div main div div {
+    background-color: transparent; }
+  .metasc-page div main div div div {
+    padding: 20px; }
+    .metasc-page div main div div div div p {
+      color: #C4C4C4; }
+  .metasc-page div main div div div div img {
+    height: auto;
+    width: 100%; }
+
+.metasc-page .margin-wikipedia {
+  margin-left: 150px; }
+
+.metasc-page .between-section {
+  background-color: #F9DA71; }
+
+.metasc-page .card-title {
+  margin-top: 110px;
+  font-family: chivo;
+  padding: 5px;
+  background-color: #F9DA71;
+  border-radius: 30px; }
+
+.metasc-page .h3-1 {
+  font-family: chivo;
+  color: #C4C4C4; }
+
+.metasc-page .h-top-wiki {
+  font-family: chivo;
+  margin-top: 150px; }
+
+.metasc-page .h-bottom-wiki {
+  margin-bottom: 150px; }
+
+.metasc-page .card-info {
+  background-color: #3D3D3D;
+  border-radius: 30px; }
+
+.metasc-page .reset-section {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
+.metasc-page .reset-img {
+  padding: 0px; }
+
+.metasc-page .margin-buttom {
+  margin-bottom: 200px; }
+
+.h2-1 {
+  margin-left: 150px; }
+
+.Contactpage section main {
+  background-image: url("../Assets/Background/Backgroundgradient contact.png");
+  background-repeat: none;
+  background-size: 100%; }
+  .Contactpage section main div div p {
+    color: #EBEBEB;
+    margin-top: 110px; }
+
+.Contactpage section div div div h3 {
+  margin-top: 110px; }
+
+.Contactpage #bottom-space {
+  margin-bottom: 75px; }
+
+.Contactpage a:link {
+  text-decoration: none; }
+
+.Contactpage a:visited {
+  text-decoration: none;
+  color: white; }
+
+.Contactpage #distance-top {
+  margin-top: 10px; }
+
+.Contactpage #margin-title {
+  margin-left: 100px; }
+
+.Contactpage #margin-contact {
+  margin-top: -40px;
+  margin-left: 100px; }
+
+.Contactpage #font-ciao {
+  font-size: 100px; }
+
+.Contactpage .blink_me {
+  display: inline-block;
+  vertical-align: bottom;
+  animation: blinker 4s linear infinite;
+  animation-delay: -2s; }
+
+.Contactpage .blink_me span {
+  float: left;
+  overflow: hidden;
+  animation: hideShow 8s linear infinite; }
+
+.Contactpage .blink_me span:nth-child(1) {
+  animation-delay: -0s; }
+
+.Contactpage .blink_me span:nth-child(2) {
+  animation-delay: -2s; }
+
+.Contactpage .blink_me span:nth-child(3) {
+  animation-delay: -4s; }
+
+.Contactpage .blink_me span:nth-child(4) {
+  animation-delay: -6s; }
+
+@keyframes blinker {
+  50% {
+    opacity: 10; } }
+
+@keyframes hideShow {
+  0%, 16.6%, 33.33%, 45%, 70%, 100% {
+    width: 0; }
+  16.66%, 33.3% {
+    width: auto; } }
+
+.Contactpage #margin-button {
+  margin-top: 80px; }
+
+.Contactpage #distance-button {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.Contactpage #color-button {
+  background: #8847BB;
+  color: white;
+  border-radius: 6px; }
+  .Contactpage #color-button:hover {
+    box-shadow: 2px 4px 8px #8847BB; }
+
+.Contactpage #color-link {
+  background: transparent;
+  color: #000000;
+  border-width: 2px;
+  border-color: #98D4A0;
+  border-radius: 6px;
+  height: 45px;
+  margin-top: 10px;
+  box-shadow: 2px 4px 10px #6fc8794b; }
+  .Contactpage #color-link:hover {
+    background: #46AB81;
+    color: white;
+    border-color: #46AB81; }
+
+.resumepage header {
+  background-color: #EBEBEB;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .resumepage header main {
+    margin-left: 150px; }
+    .resumepage header main h1 {
+      margin-top: 110px; }
+    .resumepage header main h2 {
+      margin-top: 60px; }
+    .resumepage header main p {
+      margin-top: 36px;
+      margin-bottom: 36px;
+      font-size: 14px; }
+    .resumepage header main img {
+      margin-top: 110px; }
+
+.resumepage section main {
+  margin-left: 180px; }
+  .resumepage section main div h2 {
+    margin-top: 110px; }
+  .resumepage section main div div div h3 {
+    margin-top: 60px;
+    margin-bottom: 75px;
+    color: black; }
+  .resumepage section main div div div img {
+    height: 100px; }
+  .resumepage section main div div div img {
+    margin-right: 16px;
+    margin-left: 16px; }
+
+#back-for-log {
+  background-color: #EBEBEB;
+  height: fit-content;
+  border-radius: 40px;
+  padding: 16px; }
+
+#h3-next-goal {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 32px; }
+
+#h2-next-goal {
+  margin-bottom: 75px; }
+
+#img-next-goal {
+  margin-bottom: 200px; }
+
+#p-next-goal {
+  margin-left: 32px; }
+
+footer {
+  background-color: black; }
+  footer div div div a button {
+    padding: 4px 16px;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: #98D4A0;
+    color: black; }
+    footer div div div a button:hover {
+      background-color: #46AB81;
+      box-shadow: 4px 4px 8px #98D4A0; }
+  footer div div div div {
+    margin-top: 24px;
+    margin-bottom: 24px; }
+    footer div div div div li a {
+      font-size: 14px;
+      color: white; }

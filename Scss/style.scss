@@ -1,0 +1,44 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// colours
+
+$color-purple: #3D0C63;
+$color-lightpurple: #8847BB;
+$color-green: #46AB81;
+$color-lightgreen: #98D4A0;
+$color-gray: #3D3D3D;
+$color-lightgray: #EBEBEB;
+$color-black: black;
+$margin-top1: 36px;
+$margin-top2: 60px;
+$margin-top3: 110px;
+
+$margin-bottom: 12px;
+$margin-bottom1: 36px;
+$margin-bottom2: 75px;
+$margin-bottom3: 200px;
+
+$margin-lateral: 150px;
+
+$font-size1: 14px;
+$font-size2: 36px;
+$font-size3: 56px;
+$font-size4: 72px;
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import "../Scss/nav";
+@import "../Scss/main";
+@import "../Scss/footer"

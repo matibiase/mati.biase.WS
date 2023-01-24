@@ -1,0 +1,37 @@
+
+
+footer {
+    background-color: $color-black;
+    div {
+        div {
+            div {
+                a{
+                    button {
+                        padding: 4px 16px;
+                        border-color: transparent;
+                        border-radius: 8px;
+                        background-color: $color-lightgreen;
+                        color: $color-black;
+                        &:hover {
+                            background-color: $color-green;
+                            box-shadow: 4px 4px 8px $color-lightgreen;
+                        }
+                    }
+                }
+            }
+            div {
+                div {
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+
+                    li{
+                        a {
+                            font-size: $font-size1;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

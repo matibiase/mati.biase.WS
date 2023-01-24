@@ -1,0 +1,571 @@
+
+// my colours
+
+$color-purple: #3D0C63;
+$color-lightpurple: #8847BB;
+$color-green: #46AB81;
+$color-lightgreen: #98D4A0;
+$color-gray: #3D3D3D;
+$color-lightgray: #EBEBEB;
+$color-black: black;
+$color-white: white;
+
+
+.homepage {
+    header {
+        background-image: url("/Users/matiasbiase/Desktop/mati.biase.WS/Assets/Background/Backgroundgradientv1.jpg");
+        background-repeat:no-repeat;
+        background-size: 100%;
+      main {
+        margin-left: $margin-lateral;
+        h1 {
+        margin-top: $margin-top3;
+        }
+        h2 {
+        margin-top: $margin-top2;
+        }
+        p {
+        margin-top: $margin-top1;
+        margin-bottom: $margin-bottom1;
+        font-size: $font-size1;
+        }
+        img {
+        margin-top: $margin-top3;
+        }
+      }
+    }
+    
+    // Last project
+    section {
+        margin-bottom: $margin-bottom3;
+        margin-top: $margin-top3;
+        div {
+         // Title last project
+            div {
+                h2 {
+                    margin-left: $margin-lateral;
+                    margin-bottom: $margin-bottom3;
+                    font-family: chivo;
+                }
+            }
+         // Rows
+            div {
+                div {}
+                div {
+                    div {
+                        div {
+                            div {
+                                height: 500px;
+                                div {
+                                    img {}
+                                    div {
+                                        h5 {}
+                                        p {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }  
+                button {
+                    font-size: 50px;
+                }  
+            }
+        }
+    }
+    
+    // Story Line 
+    
+    Section {
+            div {
+                h2 {
+                    margin-bottom: $margin-bottom2;
+                    font-family: chivo;
+                }
+            }
+            div {
+                height: fit-content;
+                margin-bottom: $margin-bottom1;
+                // Card big
+                div {
+                    margin-bottom: $margin-bottom;
+                    div {
+                        div {
+                            h5 {
+                                font-family: chivo;
+                            }
+                            p {
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                        }
+                    }
+                }
+                // card small
+                div {
+                    div {
+                        div {
+                            h5 {
+                                font-family: chivo;
+                            }
+                            p {
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    
+    section {
+        margin-left: 0px;
+        main {
+            img {
+                width: 100%;
+            }
+            div {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                background-color: #C4C4C4;
+                div {
+                    div {
+                        margin-left: $margin-lateral;
+                        h1 {
+                            margin-top: $margin-top3;
+                            font-family: chivo;
+                        }
+                        h2 {
+                            margin-top: $margin-top2;
+                            margin-bottom: $margin-bottom1;
+    
+                        }
+                        p {
+                            margin-bottom: $margin-bottom3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.wikipediapage {
+    div {
+        main {
+            background-color: #EBEBEB;
+            div {
+                // title
+                div {
+                    background-color: transparent;
+                    div {
+                        div {
+                            div {
+                                h1 {
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                // Cards
+                div {
+                    div {
+                        padding: 20px;
+                        div {
+                            h1 {}
+                            p {
+                                color: #C4C4C4;
+                            }
+                        }
+                    }
+                }
+                // <!-- Proyect pictures -->
+                // <!-- Title -->
+                div {
+                    div {
+                        div {
+                            div {
+                                h1 {}
+                            }
+                        }
+                    }
+                }
+                // <!-- picture  -->
+                div {
+                    div {
+                        div {
+                          img {
+                            height: auto;
+                            width: 100%;
+                          }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .margin-wikipedia {
+        margin-left: $margin-lateral;
+    }
+
+    .between-section {
+        background-color: #C4C4C4;
+    }
+    
+    .card-title {
+        margin-top: $margin-top3;
+        font-family: chivo;
+        padding: 5px;
+        background-color: #C4C4C4;
+        border-radius: 30px;
+    }
+    
+    .h3-1 {
+        font-family: chivo;
+        color: #C4C4C4;
+    }
+
+    .h-top-wiki {
+        font-family: chivo;
+        margin-top: 150px;
+    }
+    .h-bottom-wiki {
+        margin-bottom: 150px;
+    }
+    
+    .card-info {
+        background-color: #3D3D3D;
+        border-radius: 30px;
+    }
+    
+    .reset-section{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .reset-img {
+        padding: 0px;
+    }
+    
+    .margin-buttom {
+        margin-bottom: $margin-bottom3;
+    }
+}
+
+.metasc-page {
+    div {
+        main {
+            background-color: #EBEBEB;
+            div {
+                // title
+                div {
+                    background-color: transparent;
+                    div {
+                        div {
+                            div {
+                                h1 {
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                // Cards
+                div {
+                    div {
+                        padding: 20px;
+                        div {
+                            h1 {}
+                            p {
+                                color: #C4C4C4;
+                            }
+                        }
+                    }
+                }
+                // <!-- Proyect pictures -->
+                // <!-- Title -->
+                div {
+                    div {
+                        div {
+                            div {
+                                h1 {}
+                            }
+                        }
+                    }
+                }
+                // <!-- picture  -->
+                div {
+                    div {
+                        div {
+                          img {
+                            height: auto;
+                            width: 100%;
+                          }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .margin-wikipedia {
+        margin-left: $margin-lateral;
+    }
+
+    .between-section {
+        background-color: #F9DA71;
+    }
+    
+    .card-title {
+        margin-top: $margin-top3;
+        font-family: chivo;
+        padding: 5px;
+        background-color: #F9DA71;
+        border-radius: 30px;
+    }
+    
+    .h3-1 {
+        font-family: chivo;
+        color: #C4C4C4;
+    }
+
+    .h-top-wiki {
+        font-family: chivo;
+        margin-top: 150px;
+    }
+    .h-bottom-wiki {
+        margin-bottom: 150px;
+    }
+    
+    .card-info {
+        background-color: #3D3D3D;
+        border-radius: 30px;
+    }
+    
+    .reset-section{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .reset-img {
+        padding: 0px;
+    }
+    
+    .margin-buttom {
+        margin-bottom: $margin-bottom3;
+    }
+}
+
+.h2-1 {
+margin-left: $margin-lateral;
+}
+
+.Contactpage {
+    section {
+        main {
+        background-image: url("../Assets/Background/Backgroundgradient\ contact.png");
+        background-repeat: none;
+        background-size: 100%;
+            div {
+                div {
+                    
+                    p {
+                        color: #EBEBEB;
+                        margin-top: $margin-top3;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        div {
+            div {
+                div {
+                    h3 {
+                        margin-top: $margin-top3;
+                    }
+                }
+            }
+        }
+    }
+    #bottom-space {
+        margin-bottom: $margin-bottom2;
+    }
+
+    a:link { text-decoration: none;
+    }
+    a:visited {
+    text-decoration: none;
+    color: white;
+    }
+    
+    #distance-top {
+        margin-top: 10px;
+    
+    }
+    
+    #margin-title {
+        margin-left: 100px;
+    }
+    
+    #margin-contact {
+        margin-top: -40px;
+        margin-left: 100px;
+        
+    }
+    
+    #font-ciao {
+        font-size: 100px;
+    }
+    
+    
+    .blink_me {
+        display: inline-block;
+        vertical-align: bottom;
+        animation: blinker 4s linear infinite;
+        animation-delay: -2s;
+      }
+      
+      .blink_me span {
+        float: left;
+        overflow: hidden;
+        animation: hideShow 8s linear infinite;
+      }
+      
+      .blink_me span:nth-child(1) { animation-delay: -0s; }
+      .blink_me span:nth-child(2) { animation-delay: -2s; }
+      .blink_me span:nth-child(3) { animation-delay: -4s; }
+      .blink_me span:nth-child(4) { animation-delay: -6s; }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 10;
+        }
+      }
+      @keyframes hideShow {
+        0%, 16.6%, 33.33%, 45%, 70%, 100% { width: 0; }
+        16.66%, 33.3%{ width: auto; }
+      }
+    
+    
+    
+    #margin-button {
+        margin-top: 80px;
+    }
+    
+    #distance-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #color-button {
+        background: #8847BB;
+        color: white;
+        border-radius: 6px;
+        &:hover {
+            box-shadow: 2px 4px 8px #8847BB;
+        }
+    }
+    
+    #color-link {
+        background: transparent;
+        color: #000000;
+        border-width: 2px;
+        border-color: #98D4A0;
+        border-radius: 6px;
+        height: 45px;
+        margin-top: 10px;
+        box-shadow: 2px 4px 10px #6fc8794b;
+        &:hover {
+            background: #46AB81;
+            color: white;
+            border-color: #46AB81;
+        }
+    }
+    
+}
+
+.resumepage {
+    header {
+        background-color: #EBEBEB;
+        background-repeat:no-repeat;
+        background-size: 100%;
+      main {
+        margin-left: $margin-lateral;
+        h1 {
+        margin-top: $margin-top3;
+        }
+        h2 {
+        margin-top: $margin-top2;
+        }
+        p {
+        margin-top: $margin-top1;
+        margin-bottom: $margin-bottom1;
+        font-size: $font-size1;
+        }
+        img {
+        margin-top: $margin-top3;
+        }
+      }
+    }
+    section {
+        main{
+            margin-left: 180px;
+            div {
+                h2 {
+                    margin-top: $margin-top3;
+                }
+            }
+            div {
+                div {
+                    div {
+                        h3 {
+                            margin-top: $margin-top2;
+                            margin-bottom: $margin-bottom2;
+                            color: black;
+                        }
+                    }
+                }
+                div {
+                    div {
+                        img {
+                            height: 100px;
+                        } // icon
+                    }
+                    div {
+                        img {
+                            margin-right: 16px;
+                            margin-left: 16px;
+                        } // logo tool
+                    }
+
+                }
+            }
+        }   
+    }
+}
+
+#back-for-log {
+    background-color: #EBEBEB;
+    height: fit-content;
+    border-radius: 40px;
+    padding: 16px;
+}
+
+#h3-next-goal {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#h2-next-goal {
+    margin-bottom: $margin-bottom2;
+
+}
+
+#img-next-goal {
+    margin-bottom: 200px;
+}
+
+#p-next-goal{
+    margin-left: 32px;
+}
