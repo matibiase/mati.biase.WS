@@ -45,10 +45,31 @@ header nav {
     margin-left: 150px;
     margin-bottom: 200px;
     font-family: chivo; }
+  .homepage section div .card-img-top {
+    border-radius: 21px  21px 0px 0px; }
+  .homepage section div #space-lateral {
+    margin-left: 150px; }
   .homepage section div div div div div div {
     height: 500px; }
   .homepage section div div button {
     font-size: 50px; }
+
+.homepage Section #card-big {
+  background-color: #3D3D3D;
+  color: white;
+  box-shadow: 4px 6px 10px #C4C4C4; }
+  .homepage Section #card-big:hover {
+    transform: scale(1.01);
+    box-shadow: 6px 8px 20px #C4C4C4; }
+
+.homepage Section #card-small {
+  background-color: #98D4A0;
+  color: black;
+  border-color: transparent;
+  box-shadow: 3px 4px 10px #46ab81; }
+  .homepage Section #card-small:hover {
+    transform: scale(1.01);
+    box-shadow: 6px 8px 20px #46ab81; }
 
 .homepage Section div h2 {
   margin-bottom: 75px;
@@ -58,7 +79,8 @@ header nav {
   height: fit-content;
   margin-bottom: 36px; }
   .homepage Section div div {
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    border-radius: 20px; }
     .homepage Section div div div div h5 {
       font-family: chivo; }
     .homepage Section div div div div p {

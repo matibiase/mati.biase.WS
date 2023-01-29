@@ -34,6 +34,7 @@ $color-white: white;
         }
       }
     }
+
     
     // Last project
     section {
@@ -48,7 +49,13 @@ $color-white: white;
                     font-family: chivo;
                 }
             }
+            .card-img-top {
+                border-radius: 21px  21px 0px 0px;
+            }    
          // Rows
+         #space-lateral {
+            margin-left: $margin-lateral;
+         }
             div {
                 div {}
                 div {
@@ -57,7 +64,8 @@ $color-white: white;
                             div {
                                 height: 500px;
                                 div {
-                                    img {}
+                                    img {
+                                    }
                                     div {
                                         h5 {}
                                         p {}
@@ -77,6 +85,25 @@ $color-white: white;
     // Story Line 
     
     Section {
+        #card-big {
+            background-color: #3D3D3D;
+            color: white;
+            box-shadow: 4px 6px 10px #C4C4C4;
+            &:hover { 
+                transform: scale(1.01);
+                box-shadow: 6px 8px 20px #C4C4C4;
+            }
+        }
+        #card-small {
+            background-color: #98D4A0;
+            color: black;
+            border-color: transparent;
+            box-shadow: 3px 4px 10px #46ab81;
+            &:hover { 
+                transform: scale(1.01);
+                box-shadow: 6px 8px 20px #46ab81;
+            }
+        }
             div {
                 h2 {
                     margin-bottom: $margin-bottom2;
@@ -89,7 +116,9 @@ $color-white: white;
                 // Card big
                 div {
                     margin-bottom: $margin-bottom;
+                    border-radius: 20px;
                     div {
+                        
                         div {
                             h5 {
                                 font-family: chivo;
