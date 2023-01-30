@@ -12,6 +12,13 @@ $color-white: white;
 
 
 .homepage {
+    @media (max-width: 2000px) {
+        header {
+            background-color: #3D0C63;
+            background-repeat:no-repeat;
+        }
+    } 
+     
     header {
         background-image: url("/Users/matiasbiase/Desktop/mati.biase.WS/Assets/Background/Backgroundgradientv1.jpg");
         background-repeat:no-repeat;
@@ -31,11 +38,16 @@ $color-white: white;
         }
         img {
         margin-top: $margin-top3;
+        height: 450px;
         }
       }
+      #space-lateral-photo {
+        margin-left: $margin-lateral;
+      }
+
     }
 
-    
+      
     // Last project
     section {
         margin-bottom: $margin-bottom3;
@@ -62,7 +74,7 @@ $color-white: white;
                     div {
                         div {
                             div {
-                                height: 500px;
+                                height: auto;
                                 div {
                                     img {
                                     }
@@ -514,8 +526,9 @@ margin-left: $margin-lateral;
 }
 
 .resumepage {
+    
     header {
-        background-color: #EBEBEB;
+        background-color: #3D0C63;
         background-repeat:no-repeat;
         background-size: 100%;
       main {
@@ -533,6 +546,8 @@ margin-left: $margin-lateral;
         }
         img {
         margin-top: $margin-top3;
+        height: 400px;
+        margin-left: 150px;
         }
       }
     }

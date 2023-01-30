@@ -10,11 +10,10 @@ footer {
                         padding: 4px 16px;
                         border-color: transparent;
                         border-radius: 8px;
-                        background-color: $color-lightgreen;
-                        color: $color-black;
+                        background-color: $color-green;
+                        color: $color-white;
                         &:hover {
-                            background-color: $color-green;
-                            box-shadow: 4px 4px 8px $color-lightgreen;
+                            box-shadow: 4px 6px 10px $color-green;
                         }
                     }
                 }

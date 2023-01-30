@@ -21,6 +21,11 @@ header nav {
     background-color: #8847BB;
     /* cambia el color de fondo al hacer clic */ }
 
+@media (max-width: 2000px) {
+  .homepage header {
+    background-color: #3D0C63;
+    background-repeat: no-repeat; } }
+
 .homepage header {
   background-image: url("/Users/matiasbiase/Desktop/mati.biase.WS/Assets/Background/Backgroundgradientv1.jpg");
   background-repeat: no-repeat;
@@ -36,7 +41,10 @@ header nav {
       margin-bottom: 36px;
       font-size: 14px; }
     .homepage header main img {
-      margin-top: 110px; }
+      margin-top: 110px;
+      height: 450px; }
+  .homepage header #space-lateral-photo {
+    margin-left: 150px; }
 
 .homepage section {
   margin-bottom: 200px;
@@ -50,7 +58,7 @@ header nav {
   .homepage section div #space-lateral {
     margin-left: 150px; }
   .homepage section div div div div div div {
-    height: 500px; }
+    height: auto; }
   .homepage section div div button {
     font-size: 50px; }
 
@@ -308,7 +316,7 @@ header nav {
     border-color: #46AB81; }
 
 .resumepage header {
-  background-color: #EBEBEB;
+  background-color: #3D0C63;
   background-repeat: no-repeat;
   background-size: 100%; }
   .resumepage header main {
@@ -322,7 +330,9 @@ header nav {
       margin-bottom: 36px;
       font-size: 14px; }
     .resumepage header main img {
-      margin-top: 110px; }
+      margin-top: 110px;
+      height: 400px;
+      margin-left: 150px; }
 
 .resumepage section main {
   margin-left: 180px; }
@@ -364,11 +374,10 @@ footer {
     padding: 4px 16px;
     border-color: transparent;
     border-radius: 8px;
-    background-color: #98D4A0;
-    color: black; }
+    background-color: #46AB81;
+    color: white; }
     footer div div div a button:hover {
-      background-color: #46AB81;
-      box-shadow: 4px 4px 8px #98D4A0; }
+      box-shadow: 4px 6px 10px #46AB81; }
   footer div div div div {
     margin-top: 24px;
     margin-bottom: 24px; }
